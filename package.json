@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "dev": "ts-node src/app.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "dayjs": "^1.11.7"
+  }
+}

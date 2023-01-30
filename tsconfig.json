@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    
+    "target": "es2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "noImplicitAny": true,                        //암묵적 타입 추론
+    "strictNullChecks": false,                    //변수 null check
+    "noEmitOnError":true,                         //타입 에러가 있을 시 컴파일 X
+    "skipLibCheck": true
+  }
+}
+
+/*
+        <strictNullChecks>
+
+strictNullChecks: false
+ex1) const num: number = null; 오류가 나지 않음
+
+strictNullChecks: true
+ex2) const num: number = null; 오류가 발생함
+
+strictNullChecks: false
+ex1) const num: number | null = null; 명시적으로 정의 해주어야함
+
+프로젝트를 처음 시작할때 설정하면 좋음
+기존 자바스크립트를 마이그레이션하면 적용을 고민해봐야함
+*/
