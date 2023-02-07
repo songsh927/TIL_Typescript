@@ -7,7 +7,7 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitAny": true,                        //암묵적 타입 추론
-    "strictNullChecks": false,                    //변수 null check
+    "strictNullChecks": true,                    //변수 null check
     "noEmitOnError":true,                         //타입 에러가 있을 시 컴파일 X
     "skipLibCheck": true
   }
